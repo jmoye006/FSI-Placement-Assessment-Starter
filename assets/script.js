@@ -78,9 +78,8 @@ gbMinusBtn.addEventListener('click', function(){
     if(gb > 0){
     gb--
 }
-if(total > 0){
     total--
-    }
+    
     updateGb(gb)
     updateTotal(total)
 
@@ -90,9 +89,8 @@ ccMinusBtn.addEventListener('click', function(){
     if(cc > 0){
     cc--
 }
-if(total > 0){
     total--
-    }
+    
     updateCc(cc)
     updateTotal(total)
 
@@ -102,9 +100,7 @@ sugarMinusBtn.addEventListener('click', function(){
     if(sugar > 0){
     sugar--
 }
-    if(total > 0){
     total--
-    }
     updateSugar(sugar)
     updateTotal(total)
 
